@@ -1,0 +1,340 @@
+html {
+  font-family: Open Sans;
+}
+
+body {
+	margin: 0px;
+	color: #404040;
+}
+
+.header-header {
+	background: #404040;
+	font-family: Open Sans;
+	padding: 24px 20px;
+	letter-spacing: 1px;
+	display: flex;
+}
+
+.full-header {
+	justify-content: space-between;
+	padding: 26px 22px;
+	align-items: center;
+	display: none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.full-header h1 {
+	color: #666666
+}
+
+.fa-bars {
+	position: absolute;
+	right: 30px;
+	top: 35px;
+}
+
+header h1 {
+	font-family: Open Sans;
+	font-size: 18px;
+	margin: 0px;
+	color: #e6e6e6;
+	display: flex;
+	justify-content: flex-start;
+}
+
+header h2 {
+	margin: 0px;
+}
+
+a {
+	color: #666;
+}
+
+header a {
+	text-decoration: none;
+}
+
+.article a {
+	text-decoration: none;
+}
+
+.occupation {
+	font-size: 12px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	color: #a4a4a4;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.list-date {
+	font-size: 12px;
+	color: #a4a4a4;
+	margin: 0px;
+}
+
+.single-date {
+	font-size: 14px;
+	margin-top: 14px;
+	padding-bottom: 24px;
+	color: #a4a4a4;
+}
+
+.fa {
+	color: #ccc;
+}
+
+.fa-bars {
+	color: #e6e6e6;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.fa-github-square {
+	margin-left: 12px;
+}
+
+.fa-rss-square {
+	margin-left: 12px;
+}
+
+.fa-twitter-square:hover {
+	color: #55acee;
+}
+
+.fa-github-square:hover {
+	color: #171715;
+}
+
+.fa-rss-square:hover {
+	color: #ff9933;
+}
+	
+
+.dropdown {
+	background: #f4f2f0;
+	font-family: Open Sans;
+	justify-content: space-between;
+	padding: 24px 20px;
+	align-items: center;
+}
+
+.nav {
+	display: flex;
+}
+
+.articles-link {
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #666666;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	text-decoration: none;
+}
+
+.articles-link:hover {
+	color: #55acee;
+}
+
+.article-list {
+	padding: 0px 0px;
+	margin: 0;
+	list-style-type: none;
+}
+
+.about-link {
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #666666;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+.about-link:hover {
+	color: #55acee;
+}
+
+.recent-articles {
+	font-size: 13px;
+	color: #aaaaaa;
+	padding-bottom: 24px;
+	letter-spacing: 1px;
+}
+
+.site {
+	padding: 32px 20px;
+
+}
+
+.list-excerpt {
+	font-size: 14px;
+	color: #aaa;
+}
+
+.list-title {
+	margin: 17px 0px 8px 0px;
+	color: #404040;
+}
+
+.list-title:hover {
+	color: #55acee;
+}
+
+.article {
+	border-bottom: 1px solid;
+	border-color: #f2f0ed;
+	padding: 24px 0px;
+}
+
+.body-header {
+	border-bottom: 1px solid;
+	border-color: #f2f0ed;
+}
+
+.single-content {
+	border-bottom: 1px solid;
+	border-color: #f2f0ed;
+}
+
+.single-content p {
+	margin: 24px 0px;
+}
+
+.single-content h2 {
+	margin: 24px 0px;
+}
+
+.single-content ul {
+	padding-left: 32px;
+	list-style-type: square;
+}
+
+.single-content ol {
+	padding-left: 32px;
+}
+
+.info {
+	margin: 24px -20px;
+	padding: 24px 20px;
+	background-color: #f2fff2;
+}
+
+.info p {
+	margin: 0px;
+}
+
+.single-content code {
+	font-size: 15px;
+	background-color: #f4f2f1;
+	padding: 2px 0px;
+}
+
+.footnote h1 {
+	font-size: 16px;
+	margin: 24px 0px 12px 0px;
+}
+
+.footnote li {
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+.footnote ol {
+	padding-left: 25px;
+}
+
+.footnote code {
+	font-size: 12px;
+	background-color: #f4f2f1;
+	padding: 2px 0px;
+}
+
+.article-share {
+	padding: 20px;
+	margin-top: 48px;
+	background-color: #f4f2f0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.fa-twitter {
+	color: #55acee;
+	height: 32px;
+}
+
+.footer-text {
+	font-size: 14px;
+}
+
+.share {
+	margin: 0px;
+	padding-left: 14px;
+}
+
+.articles-list a {
+	color: #666;
+}
+
+.articles-list ul {
+	padding-left: 32px;
+	margin-bottom: 24px;
+	list-style-type: square;
+}
+
+.about-page p {
+	margin: 24px 0px;
+}
+
+.about-page h2 {
+	margin: 24px 0px;
+}
+
+.about-page ul {
+	margin: 24px 0px;
+	padding-left: 32px;
+	list-style-type: square;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	max-height: 300px;
+}
+
+.site {
+	margin: 0 auto;
+}
+
+@media (min-width: 570px) {
+
+	.site {
+		max-width: 640px;
+	}
+
+	.recent-articles {
+		justify-content: center;
+	}
+
+	.article {
+		padding: 28px 0px;
+	}
+
+	img {
+		max-height: 600px;
+		width: 90%;
+		padding-left: 5%;
+	}
+
+	.header-header {
+		display: none;
+	}
+
+	.full-header {
+		display: flex;
+	}
+
+}
