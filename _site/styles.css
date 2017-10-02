@@ -337,4 +337,8 @@ img {
 		display: flex;
 	}
 
+	.dropdown {
+		display: none;
+	}
+
 }
