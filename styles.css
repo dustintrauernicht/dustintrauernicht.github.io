@@ -95,7 +95,7 @@ header a {
 	margin-left: 12px;
 }
 
-.fa-rss-square {
+.fa-linkedin-square {
 	margin-left: 12px;
 }
 
@@ -107,8 +107,8 @@ header a {
 	color: #171715;
 }
 
-.fa-rss-square:hover {
-	color: #ff9933;
+.fa-linkedin-square:hover {
+	color: #0077b5;
 }
 	
 
@@ -335,6 +335,10 @@ img {
 
 	.full-header {
 		display: flex;
+	}
+
+	.dropdown {
+		display: none;
 	}
 
 }
