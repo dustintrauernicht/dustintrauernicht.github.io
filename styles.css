@@ -309,7 +309,7 @@ img {
 	margin: 0 auto;
 }
 
-@media (min-width: 570px) {
+@media screen and (min-width: 570px) {
 
 	.site {
 		max-width: 640px;
